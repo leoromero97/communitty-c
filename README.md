@@ -6,7 +6,7 @@ Cambiar por imagen o gif de preview
 
 ### Descripción general
 
-Cambiar por descripcion cuando este definido.
+Cambiar por descripcion cuando este definido...
 
 ### Tecnologías
 
