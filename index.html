@@ -14,10 +14,85 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
-  <link rel="icon" href="./assets/isologo-communitty-c.svg" sizes="100x100">
+  <link rel="icon" href="./assets/icons/isologo-communitty-c.svg" sizes="100x100">
 </head>
+
 <body>
-  <h1>Hola mundo!</h1>
+  <div class="navbar__backdrop">
+    <nav class="navbar__items-container">
+      <ul class="navbar__items-container--content">
+        <li class="navbar__items-container--item">
+          <span class="navbar__items-container--item__head--text">
+            Menú
+          </span>
+          <div class="navbar__items-container--item__head--container-icon">
+            <img src="./assets/icons/close.svg" alt="Icono cruz menú" class="navbar__items-container--item__head--icon">
+          </div>
+        </li>
+        <li class="navbar__items-container--item">
+          <a href="https://communittyc.com">
+            Inicio
+          </a>
+        </li>
+        <li class="navbar__items-container--item">
+          <a href="#servicios">
+            Servicios
+          </a>
+        </li>
+        <li class="navbar__items-container--item">
+          <a href="#proyectos">
+            Proyectos
+          </a>
+        </li>
+        <li class="navbar__items-container--item">
+          <a href="#contactenos">
+            Contáctenos
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <header class="header">
+    <div class="navbar">
+      <a href="https://communittyc.com" class="navbar__container-logo">
+        <img src="./assets/icons/isologo-communitty-c.svg" alt="Isologo Communitty C" class="navbar__logo--mobile">
+        <img src="./assets/icons/logo-community-c.svg" alt="Logo Communitty C" class="navbar__logo--desktop">
+      </a>
+      <div class="navbar__container-menu-burger">
+        <img src="./assets/icons/menu-burger.svg" alt="Icono menú hamburguesa" class="navbar__menu-burger">
+      </div>
+      <nav class="navbar__items-container--desktop">
+        <ul class="navbar__items-container--content--desktop">
+          <li class="navbar__items-container--item--desktop">
+            <a href="https://communittyc.com">
+              Inicio
+            </a>
+          </li>
+          <li class="navbar__items-container--item--desktop">
+            <a href="#servicios">
+              Servicios
+            </a>
+          </li>
+          <li class="navbar__items-container--item--desktop">
+            <a href="#proyectos">
+              Proyectos
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/541164392829?text=Hola Communitty C, tengo una consulta"  target="_blank" rel="noopener noreferrer" class="button-primary">
+              <img src="./assets/icons/whatsapp.svg" alt="Icono Whatsapp" class="button-primary__icon">
+              Contáctenos
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>Hola mundo!</h1>
+  </main>
+  <footer></footer>
 </body>
+<script src="./script.js"></script>
 
 </html>
