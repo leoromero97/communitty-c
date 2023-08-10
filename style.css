@@ -109,6 +109,7 @@ strong {
 :root {
   --brand-green-soft: #DCFFB4;
   --brand-green: #009D92;
+  --brand-green-dark: #037971;
   --brand-black: #262626;
   --white: #FFFFFF;
   --brand-grey: #BDBDBD;
@@ -234,9 +235,9 @@ body {
   padding: 16px 48px;
   gap: 12px;
   width: fit-content;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 18px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
   display: flex;
   align-items: center;
 }
@@ -281,11 +282,93 @@ body {
     line-height: 27px;
     font-weight: 600;
     color: var(--brand-green);
+    transition: cubic-bezier(.4, 0, .2, 1) .3s;
+  }
+
+  .navbar__items-container--item--desktop a:hover {
+    color: var(--brand-green-dark);
   }
 
   .button-primary {
     font-size: 18px;
     font-weight: 700;
     line-height: 27px;
+    transition: cubic-bezier(.4, 0, .2, 1) .3s;
+  }
+
+  .button-primary:hover {
+    background: var(--brand-green-dark);
+  }
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  padding: 32px 16px;
+  gap: 12px;
+}
+
+.hero__container-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+  max-width: 600px;
+}
+
+.hero__container-text--title,
+.hero__container-text--title span {
+  color: var(--brand-black);
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.hero__container-text--title span {
+  color: var(--brand-green);
+}
+
+.hero__container-image {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.hero__image {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 120px 8px;
+  }
+
+  .hero__container-text {
+    align-items: flex-start;
+    text-align: left;
+    gap: 24px;
+  }
+
+  .hero__container-text--title,
+  .hero__container-text--title span {
+    font-size: 34px;
+    line-height: 51px;
   }
 }
