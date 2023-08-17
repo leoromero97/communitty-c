@@ -570,3 +570,153 @@ body {
     font-weight: 400;
   }
 }
+
+/*Our services*/
+
+.our-services {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.our-services__container {
+  padding: 32px 16px;
+  gap: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+.our-services__card {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+  background: white;
+  height: 570px;
+  width: 445px;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.our-services__card a {
+  margin: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.our-services__card--title {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--brand-black);
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+.img-services {
+  height: 320px;
+  width: 445px;
+  padding-top: 15px;
+}
+
+.our-services__card--description {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: var(--brand-black);
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .our-services__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our-services__card {
+    max-width: 400px;
+    height: 490px;
+    align-items: center;
+
+  }
+
+  .our-services__card img {
+    max-width: 100%;
+  }
+
+  .img-services {
+    width: 400px;
+    height: 250px;
+  }
+
+  .our-services__card--title {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+
+  .our-services__card--description {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+}
+
+/*They chose us*/
+
+.they-chose-us__container {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.empresas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+}
+
+.they-chose-us img {
+  width: 200px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 768px) {}
+
+/*Our costumers say*/
+
+.our-costumers-say__container {
+  padding: 25px;
+  align-items: center;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.our-costumers-say__card {
+  display: flex;
+  flex-direction: column;
+  height: 275px;
+  width: 255px;
+  flex-shrink: 0;
+  justify-content: center;
+  gap: 20px;
+}
+
+.our-costumers-say__name {
+  font-weight: 600;
+
+}
