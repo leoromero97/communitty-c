@@ -1,55 +1,43 @@
 # Communitty C
 
-## Pagina de aterrizaje principal del emprendimiento Communitty C que brinda servicios de consultorias para el crecimiento digital de emprendedores, emprendimientos o marcas personales.
+## Sitio web del emprendimiento Communitty C que brinda servicios de consultorias para el crecimiento digital de emprendedores, emprendimientos o marcas personales.
 
-Cambiar por imagen o gif de preview
+![cover communitty c](https://github.com/leoromero97/communitty-c/assets/57498210/2d2c6371-0829-4b09-8d34-96d3a0f3f241)
+
 
 ### Descripción general
 
-Cambiar por descripcion cuando este definido...
+Se desarrollo un sitio web dónde se encuentra la información más importante, cómo datos de contacto, integrantes del equipo, servicios, feedback de clientes y emprendimientos que fueron asesorados por Communitty C. Se desarrollo bajo la metología ágil de trabajo Kanban. Utilizando trello como organizador de tareas, hablando directamente con cliente y equipo de diseño UX/UI.
 
 ### Tecnologías
 
-- Tecnologia 1
-- Tecnologia 2
-- Tecnologia 3
+- HTML5
+- CSS
+- Javascript
+- Figma
+- Vercel
 
 ### Librerías
 
-- Libreria 1
-
-## Configuración de compilación
-
-### Dependencias necesarias
-
-- Node JS v16.17.0
-- npm
-
-### Comandos para correr el proyecto
-
-```bash
-// Instalar dependencias necesarias
-$ npm install
-
-// Levantar y correr el proyecto en http://localhost:3000 o el puerto que este disponible
-$ npm run dev
-```
+- Google Fonts
 
 ## Vista previa
 
 ### Deploy
 
-url del sitio web alojado finalmente
+htpps://communittyc.com
 
 ### Móvil
 
-Imagen en vista movil
+![communitty c mobile](https://github.com/leoromero97/communitty-c/assets/57498210/be9f57e8-95c0-4822-9df6-cc4dbd05558f)
+
 
 ### Escritorio
 
-Imagen en vista escritorio
+![communitty c desktop](https://github.com/leoromero97/communitty-c/assets/57498210/b4919e83-6a93-456a-a727-1531eaa50e64)
+
 
 ### Contacto de Desarrolladores/as
 
-[Leo Romero](https://www.linkedin.com/in/leonardogerbacioromero/)
+[Leo Romero](https://www.linkedin.com/in/leonardogerbacioromero/) - 
 [Geor Barbieri](https://www.linkedin.com/in/georgina-barbieri/)
