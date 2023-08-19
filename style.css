@@ -126,12 +126,12 @@ body {
   border-radius: 200px;
   background: var(--brand-green);
   color: var(--white);
-  padding: 16px 32px;
+  padding: 16px 20px;
   gap: 12px;
   width: fit-content;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
 }
@@ -190,6 +190,7 @@ body {
     font-weight: 700;
     line-height: 27px;
     transition: cubic-bezier(.4, 0, .2, 1) .3s;
+    padding: 16px 48px;
   }
 
   .button-primary:hover {
@@ -664,27 +665,61 @@ body {
 .services__consulting--container,
 .services__consulting--hero,
 .services__consulting-one--container,
-.services__consulting-two--container {
+.services__consulting-two--container,
+.services-implementation__container--hero,
+.services-implementation-one__container,
+.services-implementation-two__container,
+.services-implementation-three__container,
+.services-implementation-four__container,
+.services__block,
+.services__section-one,
+.services__section-two,
+.services__section-three,
+.services__section-four,
+.services__section-five {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.services__consulting--container {
+.services__block {
+  gap: 12px;
+}
+
+.services__consulting--container,
+.services__section-one,
+.services__section-two,
+.services__section-three,
+.services__section-four,
+.services__section-five {
   gap: 56px;
 }
 
 .services__consulting--hero,
+.services-implementation__container--hero,
 .services__consulting-one--container,
-.services__consulting-two--container {
-  gap: 12px;
+.services__consulting-two--container,
+.services-implementation-one__container,
+.services-implementation-two__container,
+.services-implementation-three__container,
+.services-implementation-four__container {
+  gap: 24px;
 }
 
-.services__consulting--hero--image {
+.services__consulting--hero--image,
+.services-implementation__image,
+.services__consulting__image--two,
+.services__implementation__image--two {
   max-width: 420px;
   width: 100%;
   border-radius: 12px;
   align-self: center;
+  display: flex;
+}
+
+.services__consulting__image--two,
+.services__implementation__image--two {
+  display: none;
 }
 
 .services__consulting-one--container-chips,
@@ -693,13 +728,61 @@ body {
   width: 100%;
   gap: 16px;
   align-items: center;
-  margin-bottom: 12px;
   justify-content: space-between;
 }
 
-.services__consulting-one--description--one,
-.services__consulting-one--description--two,
-.services__consulting-two--description--one,
-.services__consulting-two--description--two {
-  margin-bottom: 12px;
+.services__container-button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+
+  .services__consulting__image--two,
+  .services__implementation__image--two {
+    max-width: 468px;
+  }
+
+  .services__consulting--hero--image,
+  .services-implementation__image {
+    max-width: 580px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .services-consulting__container {
+    padding: 148px 16px 32px 16px;
+  }
+
+  .services__consulting--hero--image,
+  .services-implementation__image {
+    align-self: flex-start;
+    max-width: 100%;
+  }
+
+  .services__section-one,
+  .services__section-two,
+  .services__section-three,
+  .services__section-four,
+  .services__section-five {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+  }
+
+  .services__section-three {
+    align-items: end;
+  }
+
+  .services__section-five {
+    align-items: center;
+  }
+
+  .services__consulting__image--two,
+  .services__implementation__image--two {
+    max-width: 100%;
+    display: flex;
+  }
 }
