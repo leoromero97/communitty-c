@@ -805,6 +805,7 @@ body {
   }
 }
 
+/*Footer*/
 footer {
   display: flex;
   flex-direction: column;
@@ -858,4 +859,64 @@ footer p {
 
 .hora {
   color: #DCFFB4;
+}
+
+@media screen and (max-width: 768px) {
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer p {
+    margin-bottom: 25px;
+  }
+
+  footer img {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .footer-logo-medios-atencion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    gap: 0px;
+    align-items: center;
+  }
+
+  .medios {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .redes {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .iconos {
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 10px;
+
+  }
+
+  .atencion {
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .hora {
+    align-items: center;
+  }
 }
