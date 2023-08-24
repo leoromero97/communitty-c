@@ -771,12 +771,6 @@ body {
   font-weight: 600;
 }
 
-.our-costumers-say__card img {
-  border-radius: 120px;
-  width: 200px;
-  height: 200px;
-  justify-content: center;
-}
 
 @media screen and (max-width: 768px) {
 
@@ -786,11 +780,6 @@ body {
     justify-content: center;
     gap: 75px;
     flex-wrap: wrap;
-  }
-
-  .our-costumers-say__card img {
-    width: 150px;
-    height: 150px;
   }
 
   .our-costumers-say__card {
@@ -822,6 +811,7 @@ footer {
   justify-content: space-between;
   margin: 50px;
   gap: 250px;
+
 }
 
 footer img {
@@ -831,6 +821,12 @@ footer img {
 
 footer p {
   color: #FFFFFF;
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-bottom: 50px;
 }
 
 .medios {
@@ -868,10 +864,11 @@ footer p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 
   footer p {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
   }
 
   footer img {
