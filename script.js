@@ -1,6 +1,5 @@
 // Navbar logic
 const backdrop = document.querySelector(".navbar__backdrop");
-const navbarItemsMobile = document.querySelector(".navbar__items-container");
 const buttonBurger = document.querySelector(".navbar__container-menu-burger");
 const buttonClose = document.querySelector(".navbar__items-container--item__head--icon");
 const body = document.body;

@@ -4,21 +4,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Landing page de Communitty C - Servicios de asesoría a emprendedores, a través de
+  <meta name="description" content="Sitio web de Communitty C - Servicios de asesoría a emprendedores, a través de
   empoderamiento, adaptación, metodologías ágiles, habilidades
   emprendedoras, e implementación de ideas de negocio.">
-  <meta name="application-name" content="Communitty C Landing Page">
+  <meta name="application-name" content="Communitty C Sitio web">
   <meta name="author" content="Leonardo Esteban Gerbacio Romero | Georgina Barbieri">
   <title>Communitty C - Inicio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
-  <link rel="icon" href="assets/icons/isologo-communitty-c.svg" sizes="100x100">
+  <link rel="icon" href="/assets/icons/isologo-communitty-c.svg" sizes="100x100">
 </head>
 
 <body>
-  <div class="navbar__backdrop">
+  <div class="navbar__backdrop hidden">
     <nav class="navbar__items-container">
       <ul class="navbar__items-container--content">
         <li class="navbar__items-container--item">
@@ -35,18 +35,19 @@
           </a>
         </li>
         <li class="navbar__items-container--item">
-          <a href="./pages/servicios.html">
+          <a href="/pages/servicios.html">
             Servicios
           </a>
         </li>
         <li class="navbar__items-container--item">
-          <a href="#proyectos">
+          <a href="/pages/proyectos.html">
             Proyectos
           </a>
         </li>
         <li class="navbar__items-container--item">
-          <a href="#contactenos">
-            Contáctenos
+          <a href="https://wa.me/5493512096459?text=Hola Communitty C, tengo una consulta" target="_blank"
+          rel="noopener noreferrer">
+            Contactanos
           </a>
         </li>
       </ul>
@@ -55,11 +56,11 @@
   <header class="header">
     <div class="navbar">
       <a href="https://communittyc.com" class="navbar__container-logo">
-        <img src="assets/icons/isologo-communitty-c.svg" alt="Isologo Communitty C" class="navbar__logo--mobile">
-        <img src="assets/icons/logo-community-c.svg" alt="Logo Communitty C" class="navbar__logo--desktop">
+        <img src="/assets/icons/isologo-communitty-c.svg" alt="Isologo Communitty C" class="navbar__logo--mobile">
+        <img src="/assets/icons/logo-community-c.svg" alt="Logo Communitty C" class="navbar__logo--desktop">
       </a>
       <div class="navbar__container-menu-burger">
-        <img src="assets/icons/menu-burger.svg" alt="Icono menú hamburguesa" class="navbar__menu-burger">
+        <img src="/assets/icons/menu-burger.svg" alt="Icono menú hamburguesa" class="navbar__menu-burger">
       </div>
       <nav class="navbar__items-container--desktop">
         <ul class="navbar__items-container--content--desktop">
@@ -69,17 +70,17 @@
             </a>
           </li>
           <li class="navbar__items-container--item--desktop">
-            <a href="./pages/servicios.html">
+            <a href="/pages/servicios.html">
               Servicios
             </a>
           </li>
           <li class="navbar__items-container--item--desktop">
-            <a href="#proyectos"> Proyectos </a>
+            <a href="/pages/proyectos.html">Proyectos</a>
           </li>
           <li>
             <a href="https://wa.me/5493512096459?text=Hola Communitty C, tengo una consulta" target="_blank"
               rel="noopener noreferrer" class="button-primary">
-              <img src="assets/icons/whatsapp.svg" alt="Icono Whatsapp" class="button-primary__icon" />
+              <img src="/assets/icons/whatsapp.svg" alt="Icono Whatsapp" class="button-primary__icon" />
               Contactanos
             </a>
           </li>
@@ -88,7 +89,7 @@
     </div>
   </header>
   <main>
-    <section class="hero">
+    <section class="section">
       <div class="hero__container">
         <div class="hero__container-text">
           <h1 class="h1">
@@ -107,7 +108,7 @@
         </div>
       </div>
     </section>
-    <section class="our-team">
+    <section class="section">
       <div class="our-team__container">
         <span class="title">Nuestro equipo</span>
         <div class="our-team__collaborators--container">
@@ -217,7 +218,7 @@
         </div>
       </div>
     </section>
-    <section class="our-values">
+    <section class="section our-values">
       <div class="our-values__container">
         <span class="title"> Nuestros valores </span>
         <div class="our-values__stack">
@@ -275,7 +276,7 @@
         </div>
       </div>
     </section>
-    <section class="our-services">
+    <section class="section">
       <div class="our-services__container">
         <span class="title">Nuestros servicios</span>
         <div class="our-services__card-container">
@@ -318,25 +319,25 @@
       <div class="they-chose-us__container">
         <span class="title">Nos han elegido</span>
         <div class="empresas">
-          <img src="assets/images/expo-holistica.png" alt="Expo Holistica" />
-          <img src="assets/images/cordoba-emprendedora.png" alt="Córdoba emprendedora" />
-          <img src="assets/images/colectivo-migrantes-y-refugiados-diversxs.png" alt="Colectivo migrantes y refugiados diversxs" />
-          <img src="assets/images/alcaldia-de-manizales.png" alt="Alcaldia de Manizales" />
-          <img src="assets/images/consultora-juntos-transformando.png" alt="Consultora Juntos Transformando" />
-          <img src="assets/images/jazmin-tropical.png" alt="Jazmin Tropical" />
+          <img src="/assets/images/expo-holistica.png" alt="Expo Holistica" />
+          <img src="/assets/images/cordoba-emprendedora.png" alt="Córdoba emprendedora" />
+          <img src="/assets/images/colectivo-migrantes-y-refugiados-diversxs.png" alt="Colectivo migrantes y refugiados diversxs" />
+          <img src="/assets/images/alcaldia-de-manizales.png" alt="Alcaldia de Manizales" />
+          <img src="/assets/images/consultora-juntos-transformando.png" alt="Consultora Juntos Transformando" />
+          <img src="/assets/images/jazmin-tropical.png" alt="Jazmin Tropical" />
         </div>
         <div class="empresas">
-          <img src="assets/images/secretaria-de-la-mujer-genero-diversidad-y-gestion-vecinal.jpg"
+          <img src="/assets/images/secretaria-de-la-mujer-genero-diversidad-y-gestion-vecinal.jpg"
             alt="Secretaria de la Mujer, Género, Diversidad y Gestion vecinal" />
-          <img src="assets/images/municipalidad-de-salsipuedes.png" alt="Municipalidad de Salsipuedes" />
-          <img src="assets/images/red-de-lideres-migrantes-en-argentina.png" alt="Red de Lideres migrantes en Argentina" />
-          <img src="assets/images/fe-y-alegria-colombia.png" alt="Fe y Alegría Colombia" />
-          <img src="assets/images/FICONPAZ.png" alt="FICONPAZ" />
-          <img src="assets/images/servicio.jesuita-a-migrantes.png" alt="Servicio Jesuita a migrantes" />
+          <img src="/assets/images/municipalidad-de-salsipuedes.png" alt="Municipalidad de Salsipuedes" />
+          <img src="/assets/images/red-de-lideres-migrantes-en-argentina.png" alt="Red de Lideres migrantes en Argentina" />
+          <img src="/assets/images/fe-y-alegria-colombia.png" alt="Fe y Alegría Colombia" />
+          <img src="/assets/images/FICONPAZ.png" alt="FICONPAZ" />
+          <img src="/assets/images/servicio.jesuita-a-migrantes.png" alt="Servicio Jesuita a migrantes" />
         </div>
       </div>
     </section>
-    <section class="our-costumers-say">
+    <section class="section our-costumers-say">
       <div class="our-costumers-say__container">
         <span class="title">Nuestros clientes dicen</span>
         <div class="our-costumers-say__card-container">
@@ -371,13 +372,13 @@
   </main>
   <footer>
     <div class="footer-logo-medios-atencion">
-      <img src="assets/icons/logo-blanco-communitty-c.svg" alt="logo-community-c" />
+      <img src="/assets/icons/logo-blanco-communitty-c.svg" alt="logo-community-c" />
       <div class="medios">
         <div class="footer-redes">
           <p>Siguenos en:</p>
           <div class="iconos">
-            <a href="https://www.facebook.com/people/"><img class="redes" src="assets/icons/facebook.svg" alt="facebook" /></a>
-            <a href="https://www.instagram.com/teamcommunittyc/"><img class="redes" src="assets/icons/instagram-svgrepo-com.svg" alt="Instagram" /></a>
+            <a href="https://www.facebook.com/people/"><img class="redes" src="/assets/icons/facebook.svg" alt="facebook" /></a>
+            <a href="https://www.instagram.com/teamcommunittyc/"><img class="redes" src="/assets/icons/instagram-svgrepo-com.svg" alt="Instagram" /></a>
           </div>
         </div>
         <div class="atencion">
