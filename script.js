@@ -5,22 +5,12 @@ const buttonBurger = document.querySelector(".navbar__container-menu-burger");
 const buttonClose = document.querySelector(".navbar__items-container--item__head--icon");
 const body = document.body;
 
-buttonBurger.addEventListener("click", () => {
-  if (backdrop.style.display = "none") {
-    backdrop.style.display = "flex";
-    body.style.overflowY = "hidden";
-  } else {
-    backdrop.style.display = "none";
-    body.style.overflowY = "scroll";
-  }
-});
+function toggleBackdrop() {
+  const isBackdropHidden = backdrop.classList.contains("hidden");
+  backdrop.classList.toggle("hidden", !isBackdropHidden);
+  backdrop.classList.toggle("show", isBackdropHidden);
+  body.style.overflowY = isBackdropHidden ? "hidden" : "scroll";
+}
 
-buttonClose.addEventListener("click", () => {
-  if (backdrop.style.display = "flex") {
-    backdrop.style.display = "none";
-    body.style.overflowY = "scroll";
-  } else {
-    backdrop.style.display = "flex";
-    body.style.overflowY = "hidden";
-  }
-});
+buttonBurger.addEventListener("click", toggleBackdrop);
+buttonClose.addEventListener("click", toggleBackdrop);
