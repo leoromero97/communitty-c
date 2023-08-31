@@ -758,9 +758,8 @@ body {
 .our-costumers-say__card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 12px;
-  max-width: 300px;
+  gap: 4px;
+  max-width: 240px;
 }
 
 .our-costumers-say__name {
