@@ -1,4 +1,6 @@
 /* reset styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -20,6 +22,7 @@ a,
 button,
 select,
 textarea {
+  font-display: swap;
   font-size: 16px;
   font-weight: 500;
   line-height: 27px;
@@ -658,6 +661,7 @@ body {
   border-radius: 12px;
   align-self: center;
   display: flex;
+  object-fit: cover;
 }
 
 .our-services__button {
