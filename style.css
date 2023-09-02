@@ -1010,7 +1010,7 @@ footer p {
   width: 100%;
   gap: 16px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .services__container-button {
